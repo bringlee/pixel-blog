@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="极简像素风个人博客">
+    <title>Pixel Blog · 像素博客</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="crt-overlay"></div>
+    <div class="container">
+        <header class="site-header">
+            <a href="#" class="logo">
+                <span class="pixel-icon">◈</span>
+                <span>PIXEL.LOG</span>
+            </a>
+            <nav class="main-nav">
+                <a href="#" data-view="home">文章</a>
+                <a href="#tags" data-view="tags">标签</a>
+                <a href="#about" data-view="about">关于</a>
+            </nav>
+        </header>
+
+        <main id="app">
+            <!-- 动态内容渲染区域 -->
+        </main>
+
+        <footer class="site-footer">
+            <p>© <span id="year"></span> PIXEL.LOG · 用像素记录生活</p>
+            <p class="tiny">Built with pure HTML/CSS/JS & Markdown</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
